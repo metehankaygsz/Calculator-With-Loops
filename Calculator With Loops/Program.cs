@@ -1,4 +1,3 @@
-
 for (; ; )
 {
     Console.WriteLine("1st Value");
@@ -9,7 +8,7 @@ for (; ; )
     Console.WriteLine("2nd Value");
     string str2 = Console.ReadLine();
     double int2 = Convert.ToDouble(str2);
-
+    Console.WriteLine("Result:");
     if (sym == "+")
     { Console.WriteLine(int1 + int2); }
 
